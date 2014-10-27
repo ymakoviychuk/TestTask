@@ -37,9 +37,11 @@
 			{
 				case 'P':
 					$table = 'projects';
+					$field = 'IdProject';
 					break;
 				case 'U':
 					$table = 'users';
+					$field = 'IdUser';
 					break;
 			}
 			
@@ -53,7 +55,7 @@
 					break;
 			}
 			
-			$this->model->set_like($table, $id, $status);
+			$this->model->set_like($table, $field, $id, $status);
 			
 			echo $status;
 		}
