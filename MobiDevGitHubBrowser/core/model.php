@@ -62,13 +62,13 @@
 			return $result;
 		}
 		
-		public function set_like($table, $id, $status)
+		public function set_like($table, $field, $id, $status)
 		{
 			$db = $this->connection();
 			
 			$result = $db->exec("UPDATE $table
 				SET IsLiked = '$status'
-				WHERE Id = '$id'");
+				WHERE $field = '$id'");
 		}
 		
 		public function find($subject)
