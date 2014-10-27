@@ -1,0 +1,82 @@
+body
+{
+	font-family: Arial;
+}
+.border
+{
+	border: 2px black solid;
+}
+#navbar, #content
+{
+	min-width: 650px;
+}
+#navbar
+{
+	background-color: #8DD983;
+	font-size: 20px;
+	padding: 5px;
+}
+#navbar a
+{
+	text-decoration:none;
+	color: black;
+}
+#search_form
+{
+	display: inline;
+}
+#search_form input
+{
+	float: right;
+	border: 2px black solid;
+	border-radius: 10px;
+}
+#like
+{
+	width: 50px;
+}
+#users, #project, #avatar, #user_inf, #pos30, .search
+{
+	float:left;
+}
+#project
+{
+	border-right: 2px black solid;
+	width:50%;
+	min-width:325px;
+}
+#content, #pos30
+{
+	min-height: 375px;
+}
+#project div, #users div
+{
+	margin-left:100px;
+}
+#avatar, #user_inf
+{
+	margin:20px;
+}
+#avatar
+{
+	padding-top:20px;
+}
+#avatar input
+{
+	margin-left:30px;
+}
+#pos30
+{
+	width:15%;
+}
+.search
+{
+	border-radius:10px;
+	padding:5px;
+	background-color:#BFBFBF;
+	width:66%;
+}
+#clear
+{
+	clear: both;
+}
