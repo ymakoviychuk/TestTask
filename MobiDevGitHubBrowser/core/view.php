@@ -8,7 +8,7 @@
 			$this->navbar[] = $navbar;
 			$content = strtolower($navbar);
 			
-			require_once $this->template;
+			require_once 'views/template.php';
 		}
 	}
 ?>
